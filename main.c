@@ -4,12 +4,12 @@
 #include "odd.h"
 
 int main(){
-    int array [] = {5, 17, 9, 12};
-    printf("The array is: {%d, %d, %d, %d}\n",array[0],array[1],array[2],array[3]);
-    printf("The index of the max value in the array is: %d\n",max(array,4));
-    printf("The index of the min value in the array is: %d\n",min(array,4));
-    printf("The index of the odd numbers are: {");
+    int array[] = {5, 17, 9, 12};
+    printf("The original array is {%d, %d, %d, %d}\n",array[0],array[1],array[2],array[3]);
+    printf("The max value is in index %d\n",max(array,4));
+    printf("The min value is in index %d\n",min(array,4));
+    printf("The odd values are in index {");
     odd(array,4);
     printf("}\n");
-    return  0;
+    return 0;
 }
